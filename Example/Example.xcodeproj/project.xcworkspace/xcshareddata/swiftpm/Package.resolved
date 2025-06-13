@@ -1,0 +1,24 @@
+{
+  "originHash" : "9bd94934a45f29e9b1deb49917137a45b426236b6a7ad1512c75b1c1ffaba111",
+  "pins" : [
+    {
+      "identity" : "wweither",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWEither",
+      "state" : {
+        "revision" : "62aa13eb27dd9c7f4b81cefb831347de6675ea05",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "wwprint",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWPrint",
+      "state" : {
+        "revision" : "8f5928f5d36624d77f8fc563fd8e31a59cfac6b6",
+        "version" : "1.3.1"
+      }
+    }
+  ],
+  "version" : 3
+}
