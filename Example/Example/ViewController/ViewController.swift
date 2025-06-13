@@ -54,7 +54,7 @@ private extension ViewController {
         wwPrint(mapped)
     }
     
-    /// 型別轉換 (會員名稱 => 會員資訊)：WWEither<Int, String> => WWEither<Member, String>
+    /// 型別轉換 (會員編號 => 會員資訊)：WWEither<Int, String> => WWEither<Member, String>
     func demo3() {
         
         let memberInfo: WWEither<Int, String> = .left(123)
