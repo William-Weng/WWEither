@@ -47,7 +47,7 @@ public extension WWEither {
     
     /// 映射右側值
     /// - Parameter transform: (R) -> T
-    /// - Returns: WWEither<L, T
+    /// - Returns: WWEither<L, T>
     func mapRight<T>(_ transform: (R) -> T) -> WWEither<L, T> {
         switch self {
         case .left(let value): return .left(value)
